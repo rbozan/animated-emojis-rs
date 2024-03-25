@@ -83,7 +83,7 @@
           # OPENSSL_DIR = "${pkgs.openssl.dev}";
           # OPENSSL_LIB_DIR = "${pkgs.openssl.out}/lib";
 
-          NOTO_EMOJI_METADATA_PATH = noto-emoji-metadata-latest;
+          noto_emoji_metadata_path = noto-emoji-metadata-latest;
 
           nativeBuildInputs = with pkgs; [
             # Development

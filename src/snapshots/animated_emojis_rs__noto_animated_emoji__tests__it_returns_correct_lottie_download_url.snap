@@ -1,0 +1,5 @@
+---
+source: src/noto_animated_emoji.rs
+expression: emoji.lottie_download_url()
+---
+https://fonts.gstatic.com/s/e/notoemoji/latest/1f3f3_fe0f/lottie.json
