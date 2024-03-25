@@ -1,6 +1,6 @@
-# Noto Animated emojis as Rust package
+# Noto Animated emojis
 
-These are all the animated emojis from https://googlefonts.github.io/noto-emoji-animation/ which is licensed under CC BY 4.0, directly useable for your project.
+These are all the animated emojis from https://googlefonts.github.io/noto-emoji-animation/ which are licensed under CC BY 4.0, directly useable for your project.
 
 
 ## How to use?
