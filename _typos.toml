@@ -1,0 +1,7 @@
+[files]
+extend-exclude = [
+  "fixtures/*.json",
+  "cache/*.json",
+  "src/word_list.txt",
+  "src/lottie/*.json",
+]
