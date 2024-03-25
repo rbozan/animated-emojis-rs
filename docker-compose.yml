@@ -1,0 +1,7 @@
+version: "3"
+services:
+  tor-proxy:
+    image: zhaowde/rotating-tor-http-proxy
+    ports:
+      - 3128:3128
+      - 4444:4444 # HAProxy stats

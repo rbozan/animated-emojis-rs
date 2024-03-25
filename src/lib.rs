@@ -1,5 +1,6 @@
 mod config;
 mod noto_animated_emoji;
+mod noto_animated_emoji_generator;
 
 pub fn add(left: usize, right: usize) -> usize {
     left + right
