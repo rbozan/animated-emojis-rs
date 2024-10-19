@@ -54,6 +54,7 @@ mod tests {
 
     use super::*;
     use crate::config::GLOBAL_CONFIG;
+    use reqwest::StatusCode;
     use serde_json::json;
 
     #[test]
@@ -118,8 +119,13 @@ mod tests {
             let req = client.get(emoji.lottie_download_url()).build().unwrap();
             let resp = client.execute(req).await.expect("request failed");
 
+            if resp.status() != StatusCode::OK {
+                panic!("Received invalid status code {}", resp.status())
+            }
+
             if !emoji_path.exists() {
-                fs::create_dir(&emoji_path).unwrap();
+                dbg!(&emoji_path);
+                fs::create_dir_all(&emoji_path).unwrap();
             }
 
             let mut out = File::create(emoji_file_path).expect("failed to create file");

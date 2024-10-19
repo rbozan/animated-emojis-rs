@@ -2,24 +2,11 @@
   description = "annotations";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
-
-    crane = {
-      url = "github:ipetkov/crane";
-      inputs.nixpkgs.follows = "nixpkgs";
-    };
-
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
+    crane.url = "github:ipetkov/crane";
     rust-overlay.url = "github:oxalica/rust-overlay";
-
     flake-utils.url = "github:numtide/flake-utils";
-
-    pre-commit-hooks = {
-      url = "github:cachix/pre-commit-hooks.nix";
-      inputs = {
-        nixpkgs.follows = "nixpkgs";
-        flake-utils.follows = "flake-utils";
-      };
-    };
+    pre-commit-hooks.url = "github:cachix/pre-commit-hooks.nix";
 
     noto-emoji-metadata = {
       url = "github:googlefonts/emoji-metadata";
@@ -30,9 +17,18 @@
 
   };
 
-  outputs = { self, nixpkgs, crane, flake-utils, rust-overlay, pre-commit-hooks
-    , noto-emoji-metadata }:
-    flake-utils.lib.eachDefaultSystem (system:
+  outputs =
+    {
+      self,
+      nixpkgs,
+      crane,
+      flake-utils,
+      rust-overlay,
+      pre-commit-hooks,
+      noto-emoji-metadata,
+    }:
+    flake-utils.lib.eachDefaultSystem (
+      system:
       let
         pkgs = import nixpkgs {
           inherit system;
@@ -51,20 +47,19 @@
           doCheck = false;
         };
 
-        noto-emoji-metadata-latest =
-          "${noto-emoji-metadata}/emoji_15_1_ordering.json";
+        noto-emoji-metadata-latest = "${noto-emoji-metadata}/emoji_16_0_ordering.json";
 
         pre-commit = pre-commit-hooks.lib."${system}".run;
-      in {
+      in
+      {
         checks = {
           inherit my-crate;
 
           pre-commit = pre-commit {
             src = ./.;
             hooks = {
-              nixfmt.enable = true;
+              nixfmt-rfc-style.enable = true;
               rustfmt.enable = true;
-              # typos.enable = true;
             };
           };
         };
@@ -99,5 +94,6 @@
           ];
         };
 
-      });
+      }
+    );
 }
