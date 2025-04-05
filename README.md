@@ -20,4 +20,6 @@ Alternatively you can choose to use a sparse checkout to fetch all the Lottie fi
 
 ### Updating Noto Emoji metadata version
 
-Update the version in `flake.nix`, run a proxy server at `http://127.0.0.1:3128` and run `cargo test`
+1) Update the version in `flake.nix`
+2) Run a proxy server at `http://127.0.0.1:3128` by using `docker-compose up`
+3) Run `cargo test`. This will do some checks and fetch the emojis.

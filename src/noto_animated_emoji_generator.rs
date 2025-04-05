@@ -120,7 +120,11 @@ mod tests {
             let resp = client.execute(req).await.expect("request failed");
 
             if resp.status() != StatusCode::OK {
-                panic!("Received invalid status code {}", resp.status())
+                panic!(
+                    "Received invalid status code {} for URL {}",
+                    resp.status(),
+                    resp.url()
+                )
             }
 
             if !emoji_path.exists() {
