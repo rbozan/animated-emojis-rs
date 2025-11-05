@@ -2,7 +2,7 @@
   description = "annotations";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.11";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
     crane.url = "github:ipetkov/crane";
     rust-overlay.url = "github:oxalica/rust-overlay";
     flake-utils.url = "github:numtide/flake-utils";
@@ -47,7 +47,7 @@
           doCheck = false;
         };
 
-        noto-emoji-metadata-latest = "${noto-emoji-metadata}/emoji_16_0_ordering.json";
+        noto-emoji-metadata-latest = "${noto-emoji-metadata}/emoji_17_0_ordering.json";
 
         pre-commit = pre-commit-hooks.lib."${system}".run;
       in

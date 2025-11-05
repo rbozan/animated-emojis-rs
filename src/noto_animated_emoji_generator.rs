@@ -13,11 +13,16 @@ struct Emoji {
     directional: bool,
 }
 
-impl Emoji {
+#[derive(Debug, Clone)]
+struct EmojiCharacter {
+    character: Vec<u32>,
+}
+
+impl EmojiCharacter {
     fn as_hex(&self) -> String {
-        self.base
+        self.character
             .iter()
-            .map(|base| format!("{:x}", base))
+            .map(|codepoint| format!("{:x}", codepoint))
             .collect::<Vec<_>>()
             .join("_")
     }
@@ -82,7 +87,11 @@ mod tests {
         }))
         .unwrap();
 
-        insta::assert_snapshot!(emoji.lottie_download_url());
+        let emoji_char = EmojiCharacter {
+            character: emoji.base.clone(),
+        };
+
+        insta::assert_snapshot!(emoji_char.lottie_download_url());
     }
 
     #[tokio::test]
@@ -91,20 +100,35 @@ mod tests {
 
         let metadata = deserialize_noto_animated_emojis_metadata(&path).unwrap();
 
-        let emojis: Vec<_> = metadata
+        let emoji_chars: Vec<_> = metadata
             .iter()
             .flat_map(|group| group.emoji.clone())
             .filter(|emoji| emoji.animated)
+            .flat_map(|emoji| {
+                if emoji.alternates.is_empty() {
+                    vec![EmojiCharacter {
+                        character: emoji.base.clone(),
+                    }]
+                } else {
+                    emoji
+                        .alternates
+                        .iter()
+                        .map(|alt| EmojiCharacter {
+                            character: alt.clone(),
+                        })
+                        .collect()
+                }
+            })
             .collect();
 
-        println!("Found {} animated emojis", emojis.len());
+        println!("Found {} animated emojis", emoji_chars.len());
 
         let client = reqwest::Client::builder()
             .proxy(reqwest::Proxy::all("http://127.0.0.1:3128").unwrap())
             .build()
             .unwrap();
 
-        for emoji in emojis {
+        for emoji in emoji_chars {
             let emoji_path = PathBuf::from_str(
                 format!("static/noto_animated_emoji/lottie/{}", emoji.as_hex()).as_str(),
             )
@@ -119,9 +143,15 @@ mod tests {
             let req = client.get(emoji.lottie_download_url()).build().unwrap();
             let resp = client.execute(req).await.expect("request failed");
 
-            if resp.status() != StatusCode::OK {
+            // NOTE: Until https://github.com/googlefonts/emoji-metadata/issues/65 is fixed
+            if resp.status() == StatusCode::NOT_FOUND {
+                dbg!(&emoji);
+                println!("Lottie file not found for URL {}, emoji", resp.url());
+                continue;
+            } else if resp.status() != StatusCode::OK {
+                dbg!(&emoji);
                 panic!(
-                    "Received invalid status code {} for URL {}",
+                    "Received invalid status code {} for URL {}, emoji",
                     resp.status(),
                     resp.url()
                 )
@@ -151,6 +181,21 @@ mod tests {
             .iter()
             .flat_map(|group| group.emoji.clone())
             .filter(|emoji| emoji.animated)
+            .flat_map(|emoji| {
+                if emoji.alternates.is_empty() {
+                    vec![EmojiCharacter {
+                        character: emoji.base.clone(),
+                    }]
+                } else {
+                    emoji
+                        .alternates
+                        .iter()
+                        .map(|alt| EmojiCharacter {
+                            character: alt.clone(),
+                        })
+                        .collect()
+                }
+            })
             .collect();
 
         let mut script_content: String = format!(
