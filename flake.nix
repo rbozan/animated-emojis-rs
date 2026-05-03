@@ -2,7 +2,7 @@
   description = "annotations";
 
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.05";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11";
     crane.url = "github:ipetkov/crane";
     rust-overlay.url = "github:oxalica/rust-overlay";
     flake-utils.url = "github:numtide/flake-utils";
@@ -35,11 +35,9 @@
           overlays = [ (import rust-overlay) ];
         };
 
-        rustPkg = pkgs.rust-bin.stable.latest;
-        rustMinimalToolchain = rustPkg.minimal;
-        rustDefaultToolchain = rustPkg.default;
+        rustToolchain = pkgs.rust-bin.stable.latest.default;
 
-        craneLib = crane.lib.${system}.overrideToolchain rustMinimalToolchain;
+        craneLib = crane.lib.${system}.overrideToolchain rustToolchain;
 
         my-crate = craneLib.buildPackage {
           src = ./.;
@@ -58,7 +56,7 @@
           pre-commit = pre-commit {
             src = ./.;
             hooks = {
-              nixfmt-rfc-style.enable = true;
+              nixfmt.enable = true;
               rustfmt.enable = true;
             };
           };
@@ -75,16 +73,13 @@
           inherit (self.checks.${system}.pre-commit) shellHook;
           inputsFrom = builtins.attrValues self.checks;
 
-          # OPENSSL_DIR = "${pkgs.openssl.dev}";
-          # OPENSSL_LIB_DIR = "${pkgs.openssl.out}/lib";
-
           noto_emoji_metadata_path = noto-emoji-metadata-latest;
 
           nativeBuildInputs = with pkgs; [
             # Development
             cargo-watch
             cargo-insta
-            rustDefaultToolchain
+            rustToolchain
 
             openssl.dev
             pkg-config

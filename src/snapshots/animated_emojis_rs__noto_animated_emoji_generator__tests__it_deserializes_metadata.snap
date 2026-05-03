@@ -329,15 +329,6 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":distorted-face:"
-      animated: false
-      directional: false
-    - base:
-        - 129396
-      alternates: []
-      emoticons:
-        - ">﹏☉"
-      shortcodes:
-        - ":woozy:"
       animated: true
       directional: false
     - base:
@@ -1057,7 +1048,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":ogre:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128122
@@ -1108,7 +1099,7 @@ expression: result.unwrap()
         - ">_>"
       shortcodes:
         - ":moon-face-new:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127773
@@ -1117,7 +1108,7 @@ expression: result.unwrap()
         - "<_<"
       shortcodes:
         - ":moon-face-full:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127774
@@ -1254,7 +1245,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":star:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127775
@@ -1296,7 +1287,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":fight:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128162
@@ -1330,7 +1321,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":hole:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128293
@@ -1547,7 +1538,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":heart:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 10083
@@ -1604,7 +1595,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":hugging:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128101
@@ -1629,7 +1620,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":speaking-head:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128099
@@ -1661,7 +1652,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":brain:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129728
@@ -1710,7 +1701,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":bone:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128064
@@ -4306,7 +4297,7 @@ expression: result.unwrap()
       shortcodes:
         - ":kneeling:"
       animated: false
-      directional: false
+      directional: true
     - base:
         - 129489
         - 8205
@@ -4508,7 +4499,7 @@ expression: result.unwrap()
       shortcodes:
         - ":person-in-motorized-wheelchair:"
       animated: false
-      directional: false
+      directional: true
     - base:
         - 129489
         - 8205
@@ -4710,7 +4701,7 @@ expression: result.unwrap()
       shortcodes:
         - ":person-in-manual-wheelchair:"
       animated: false
-      directional: false
+      directional: true
     - base:
         - 129489
         - 8205
@@ -4913,7 +4904,7 @@ expression: result.unwrap()
         - ":walking-with-cane:"
         - ":blind:"
       animated: false
-      directional: false
+      directional: true
     - base:
         - 128694
       alternates:
@@ -5113,7 +5104,7 @@ expression: result.unwrap()
       shortcodes:
         - ":walking:"
       animated: false
-      directional: false
+      directional: true
     - base:
         - 127939
       alternates:
@@ -5313,7 +5304,7 @@ expression: result.unwrap()
       shortcodes:
         - ":running:"
       animated: false
-      directional: false
+      directional: true
     - base:
         - 9977
         - 65039
@@ -5790,11 +5781,151 @@ expression: result.unwrap()
         - - 129340
         - - 129340
           - 127995
+        - - 129489
+          - 127995
+          - 8205
+          - 129775
+          - 8205
+          - 129489
+          - 127996
+        - - 129489
+          - 127995
+          - 8205
+          - 129775
+          - 8205
+          - 129489
+          - 127997
+        - - 129489
+          - 127995
+          - 8205
+          - 129775
+          - 8205
+          - 129489
+          - 127998
+        - - 129489
+          - 127995
+          - 8205
+          - 129775
+          - 8205
+          - 129489
+          - 127999
+        - - 129489
+          - 127996
+          - 8205
+          - 129775
+          - 8205
+          - 129489
+          - 127995
         - - 129340
+          - 127996
+        - - 129489
+          - 127996
+          - 8205
+          - 129775
+          - 8205
+          - 129489
+          - 127997
+        - - 129489
+          - 127996
+          - 8205
+          - 129775
+          - 8205
+          - 129489
+          - 127998
+        - - 129489
+          - 127996
+          - 8205
+          - 129775
+          - 8205
+          - 129489
+          - 127999
+        - - 129489
+          - 127997
+          - 8205
+          - 129775
+          - 8205
+          - 129489
+          - 127995
+        - - 129489
+          - 127997
+          - 8205
+          - 129775
+          - 8205
+          - 129489
           - 127996
         - - 129340
           - 127997
+        - - 129489
+          - 127997
+          - 8205
+          - 129775
+          - 8205
+          - 129489
+          - 127998
+        - - 129489
+          - 127997
+          - 8205
+          - 129775
+          - 8205
+          - 129489
+          - 127999
+        - - 129489
+          - 127998
+          - 8205
+          - 129775
+          - 8205
+          - 129489
+          - 127995
+        - - 129489
+          - 127998
+          - 8205
+          - 129775
+          - 8205
+          - 129489
+          - 127996
+        - - 129489
+          - 127998
+          - 8205
+          - 129775
+          - 8205
+          - 129489
+          - 127997
         - - 129340
+          - 127998
+        - - 129489
+          - 127998
+          - 8205
+          - 129775
+          - 8205
+          - 129489
+          - 127999
+        - - 129489
+          - 127999
+          - 8205
+          - 129775
+          - 8205
+          - 129489
+          - 127995
+        - - 129489
+          - 127999
+          - 8205
+          - 129775
+          - 8205
+          - 129489
+          - 127996
+        - - 129489
+          - 127999
+          - 8205
+          - 129775
+          - 8205
+          - 129489
+          - 127997
+        - - 129489
+          - 127999
+          - 8205
+          - 129775
+          - 8205
+          - 129489
           - 127998
         - - 129340
           - 127999
@@ -5804,271 +5935,180 @@ expression: result.unwrap()
       animated: false
       directional: false
     - base:
-        - 129489
-        - 127995
-        - 8205
-        - 129775
-        - 8205
-        - 129489
-        - 127996
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 129489
-        - 127995
-        - 8205
-        - 129775
-        - 8205
-        - 129489
-        - 127997
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 129489
-        - 127995
-        - 8205
-        - 129775
-        - 8205
-        - 129489
-        - 127998
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 129489
-        - 127995
-        - 8205
-        - 129775
-        - 8205
-        - 129489
-        - 127999
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 129489
-        - 127996
-        - 8205
-        - 129775
-        - 8205
-        - 129489
-        - 127995
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 129489
-        - 127996
-        - 8205
-        - 129775
-        - 8205
-        - 129489
-        - 127997
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 129489
-        - 127996
-        - 8205
-        - 129775
-        - 8205
-        - 129489
-        - 127998
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 129489
-        - 127996
-        - 8205
-        - 129775
-        - 8205
-        - 129489
-        - 127999
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 129489
-        - 127997
-        - 8205
-        - 129775
-        - 8205
-        - 129489
-        - 127995
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 129489
-        - 127997
-        - 8205
-        - 129775
-        - 8205
-        - 129489
-        - 127996
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 129489
-        - 127997
-        - 8205
-        - 129775
-        - 8205
-        - 129489
-        - 127998
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 129489
-        - 127997
-        - 8205
-        - 129775
-        - 8205
-        - 129489
-        - 127999
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 129489
-        - 127998
-        - 8205
-        - 129775
-        - 8205
-        - 129489
-        - 127995
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 129489
-        - 127998
-        - 8205
-        - 129775
-        - 8205
-        - 129489
-        - 127996
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 129489
-        - 127998
-        - 8205
-        - 129775
-        - 8205
-        - 129489
-        - 127997
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 129489
-        - 127998
-        - 8205
-        - 129775
-        - 8205
-        - 129489
-        - 127999
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 129489
-        - 127999
-        - 8205
-        - 129775
-        - 8205
-        - 129489
-        - 127995
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 129489
-        - 127999
-        - 8205
-        - 129775
-        - 8205
-        - 129489
-        - 127996
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 129489
-        - 127999
-        - 8205
-        - 129775
-        - 8205
-        - 129489
-        - 127997
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 129489
-        - 127999
-        - 8205
-        - 129775
-        - 8205
-        - 129489
-        - 127998
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
         - 129340
         - 8205
         - 9794
         - 65039
-      alternates: []
+      alternates:
+        - - 129340
+          - 8205
+          - 9794
+          - 65039
+        - - 129340
+          - 127995
+          - 8205
+          - 9794
+          - 65039
+        - - 128104
+          - 127995
+          - 8205
+          - 129775
+          - 8205
+          - 128104
+          - 127996
+        - - 128104
+          - 127995
+          - 8205
+          - 129775
+          - 8205
+          - 128104
+          - 127997
+        - - 128104
+          - 127995
+          - 8205
+          - 129775
+          - 8205
+          - 128104
+          - 127998
+        - - 128104
+          - 127995
+          - 8205
+          - 129775
+          - 8205
+          - 128104
+          - 127999
+        - - 128104
+          - 127996
+          - 8205
+          - 129775
+          - 8205
+          - 128104
+          - 127995
+        - - 129340
+          - 127996
+          - 8205
+          - 9794
+          - 65039
+        - - 128104
+          - 127996
+          - 8205
+          - 129775
+          - 8205
+          - 128104
+          - 127997
+        - - 128104
+          - 127996
+          - 8205
+          - 129775
+          - 8205
+          - 128104
+          - 127998
+        - - 128104
+          - 127996
+          - 8205
+          - 129775
+          - 8205
+          - 128104
+          - 127999
+        - - 128104
+          - 127997
+          - 8205
+          - 129775
+          - 8205
+          - 128104
+          - 127995
+        - - 128104
+          - 127997
+          - 8205
+          - 129775
+          - 8205
+          - 128104
+          - 127996
+        - - 129340
+          - 127997
+          - 8205
+          - 9794
+          - 65039
+        - - 128104
+          - 127997
+          - 8205
+          - 129775
+          - 8205
+          - 128104
+          - 127998
+        - - 128104
+          - 127997
+          - 8205
+          - 129775
+          - 8205
+          - 128104
+          - 127999
+        - - 128104
+          - 127998
+          - 8205
+          - 129775
+          - 8205
+          - 128104
+          - 127995
+        - - 128104
+          - 127998
+          - 8205
+          - 129775
+          - 8205
+          - 128104
+          - 127996
+        - - 128104
+          - 127998
+          - 8205
+          - 129775
+          - 8205
+          - 128104
+          - 127997
+        - - 129340
+          - 127998
+          - 8205
+          - 9794
+          - 65039
+        - - 128104
+          - 127998
+          - 8205
+          - 129775
+          - 8205
+          - 128104
+          - 127999
+        - - 128104
+          - 127999
+          - 8205
+          - 129775
+          - 8205
+          - 128104
+          - 127995
+        - - 128104
+          - 127999
+          - 8205
+          - 129775
+          - 8205
+          - 128104
+          - 127996
+        - - 128104
+          - 127999
+          - 8205
+          - 129775
+          - 8205
+          - 128104
+          - 127997
+        - - 128104
+          - 127999
+          - 8205
+          - 129775
+          - 8205
+          - 128104
+          - 127998
+        - - 129340
+          - 127999
+          - 8205
+          - 9794
+          - 65039
       emoticons: []
       shortcodes:
         - ":wrestling-men:"
@@ -6076,643 +6116,182 @@ expression: result.unwrap()
       directional: false
     - base:
         - 129340
-        - 127995
-        - 8205
-        - 9794
-        - 65039
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 129340
-        - 127996
-        - 8205
-        - 9794
-        - 65039
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 129340
-        - 127997
-        - 8205
-        - 9794
-        - 65039
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 129340
-        - 127998
-        - 8205
-        - 9794
-        - 65039
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 129340
-        - 127999
-        - 8205
-        - 9794
-        - 65039
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127995
-        - 8205
-        - 129775
-        - 8205
-        - 128104
-        - 127996
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127995
-        - 8205
-        - 129775
-        - 8205
-        - 128104
-        - 127997
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127995
-        - 8205
-        - 129775
-        - 8205
-        - 128104
-        - 127998
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127995
-        - 8205
-        - 129775
-        - 8205
-        - 128104
-        - 127999
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127996
-        - 8205
-        - 129775
-        - 8205
-        - 128104
-        - 127995
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127996
-        - 8205
-        - 129775
-        - 8205
-        - 128104
-        - 127997
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127996
-        - 8205
-        - 129775
-        - 8205
-        - 128104
-        - 127998
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127996
-        - 8205
-        - 129775
-        - 8205
-        - 128104
-        - 127999
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127997
-        - 8205
-        - 129775
-        - 8205
-        - 128104
-        - 127995
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127997
-        - 8205
-        - 129775
-        - 8205
-        - 128104
-        - 127996
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127997
-        - 8205
-        - 129775
-        - 8205
-        - 128104
-        - 127998
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127997
-        - 8205
-        - 129775
-        - 8205
-        - 128104
-        - 127999
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127998
-        - 8205
-        - 129775
-        - 8205
-        - 128104
-        - 127995
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127998
-        - 8205
-        - 129775
-        - 8205
-        - 128104
-        - 127996
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127998
-        - 8205
-        - 129775
-        - 8205
-        - 128104
-        - 127997
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127998
-        - 8205
-        - 129775
-        - 8205
-        - 128104
-        - 127999
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127999
-        - 8205
-        - 129775
-        - 8205
-        - 128104
-        - 127995
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127999
-        - 8205
-        - 129775
-        - 8205
-        - 128104
-        - 127996
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127999
-        - 8205
-        - 129775
-        - 8205
-        - 128104
-        - 127997
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127999
-        - 8205
-        - 129775
-        - 8205
-        - 128104
-        - 127998
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 129340
         - 8205
         - 9792
         - 65039
-      alternates: []
+      alternates:
+        - - 129340
+          - 8205
+          - 9792
+          - 65039
+        - - 129340
+          - 127995
+          - 8205
+          - 9792
+          - 65039
+        - - 128105
+          - 127995
+          - 8205
+          - 129775
+          - 8205
+          - 128105
+          - 127996
+        - - 128105
+          - 127995
+          - 8205
+          - 129775
+          - 8205
+          - 128105
+          - 127997
+        - - 128105
+          - 127995
+          - 8205
+          - 129775
+          - 8205
+          - 128105
+          - 127998
+        - - 128105
+          - 127995
+          - 8205
+          - 129775
+          - 8205
+          - 128105
+          - 127999
+        - - 128105
+          - 127996
+          - 8205
+          - 129775
+          - 8205
+          - 128105
+          - 127995
+        - - 129340
+          - 127996
+          - 8205
+          - 9792
+          - 65039
+        - - 128105
+          - 127996
+          - 8205
+          - 129775
+          - 8205
+          - 128105
+          - 127997
+        - - 128105
+          - 127996
+          - 8205
+          - 129775
+          - 8205
+          - 128105
+          - 127998
+        - - 128105
+          - 127996
+          - 8205
+          - 129775
+          - 8205
+          - 128105
+          - 127999
+        - - 128105
+          - 127997
+          - 8205
+          - 129775
+          - 8205
+          - 128105
+          - 127995
+        - - 128105
+          - 127997
+          - 8205
+          - 129775
+          - 8205
+          - 128105
+          - 127996
+        - - 129340
+          - 127997
+          - 8205
+          - 9792
+          - 65039
+        - - 128105
+          - 127997
+          - 8205
+          - 129775
+          - 8205
+          - 128105
+          - 127998
+        - - 128105
+          - 127997
+          - 8205
+          - 129775
+          - 8205
+          - 128105
+          - 127999
+        - - 128105
+          - 127998
+          - 8205
+          - 129775
+          - 8205
+          - 128105
+          - 127995
+        - - 128105
+          - 127998
+          - 8205
+          - 129775
+          - 8205
+          - 128105
+          - 127996
+        - - 128105
+          - 127998
+          - 8205
+          - 129775
+          - 8205
+          - 128105
+          - 127997
+        - - 129340
+          - 127998
+          - 8205
+          - 9792
+          - 65039
+        - - 128105
+          - 127998
+          - 8205
+          - 129775
+          - 8205
+          - 128105
+          - 127999
+        - - 128105
+          - 127999
+          - 8205
+          - 129775
+          - 8205
+          - 128105
+          - 127995
+        - - 128105
+          - 127999
+          - 8205
+          - 129775
+          - 8205
+          - 128105
+          - 127996
+        - - 128105
+          - 127999
+          - 8205
+          - 129775
+          - 8205
+          - 128105
+          - 127997
+        - - 128105
+          - 127999
+          - 8205
+          - 129775
+          - 8205
+          - 128105
+          - 127998
+        - - 129340
+          - 127999
+          - 8205
+          - 9792
+          - 65039
       emoticons: []
       shortcodes:
         - ":wrestling-women:"
-      animated: false
-      directional: false
-    - base:
-        - 129340
-        - 127995
-        - 8205
-        - 9792
-        - 65039
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 129340
-        - 127996
-        - 8205
-        - 9792
-        - 65039
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 129340
-        - 127997
-        - 8205
-        - 9792
-        - 65039
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 129340
-        - 127998
-        - 8205
-        - 9792
-        - 65039
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 129340
-        - 127999
-        - 8205
-        - 9792
-        - 65039
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127995
-        - 8205
-        - 129775
-        - 8205
-        - 128105
-        - 127996
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127995
-        - 8205
-        - 129775
-        - 8205
-        - 128105
-        - 127997
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127995
-        - 8205
-        - 129775
-        - 8205
-        - 128105
-        - 127998
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127995
-        - 8205
-        - 129775
-        - 8205
-        - 128105
-        - 127999
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127996
-        - 8205
-        - 129775
-        - 8205
-        - 128105
-        - 127995
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127996
-        - 8205
-        - 129775
-        - 8205
-        - 128105
-        - 127997
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127996
-        - 8205
-        - 129775
-        - 8205
-        - 128105
-        - 127998
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127996
-        - 8205
-        - 129775
-        - 8205
-        - 128105
-        - 127999
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127997
-        - 8205
-        - 129775
-        - 8205
-        - 128105
-        - 127995
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127997
-        - 8205
-        - 129775
-        - 8205
-        - 128105
-        - 127996
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127997
-        - 8205
-        - 129775
-        - 8205
-        - 128105
-        - 127998
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127997
-        - 8205
-        - 129775
-        - 8205
-        - 128105
-        - 127999
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127998
-        - 8205
-        - 129775
-        - 8205
-        - 128105
-        - 127995
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127998
-        - 8205
-        - 129775
-        - 8205
-        - 128105
-        - 127996
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127998
-        - 8205
-        - 129775
-        - 8205
-        - 128105
-        - 127997
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127998
-        - 8205
-        - 129775
-        - 8205
-        - 128105
-        - 127999
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127999
-        - 8205
-        - 129775
-        - 8205
-        - 128105
-        - 127995
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127999
-        - 8205
-        - 129775
-        - 8205
-        - 128105
-        - 127996
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127999
-        - 8205
-        - 129775
-        - 8205
-        - 128105
-        - 127997
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127999
-        - 8205
-        - 129775
-        - 8205
-        - 128105
-        - 127998
-      alternates: []
-      emoticons: []
-      shortcodes: []
       animated: false
       directional: false
     - base:
@@ -6934,7 +6513,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":parachute:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127940
@@ -7677,7 +7256,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":hairy-creature:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129464
@@ -10586,154 +10165,154 @@ expression: result.unwrap()
         - - 128111
         - - 128111
           - 127995
+        - - 129489
+          - 127995
+          - 8205
+          - 128048
+          - 8205
+          - 129489
+          - 127996
+        - - 129489
+          - 127995
+          - 8205
+          - 128048
+          - 8205
+          - 129489
+          - 127997
+        - - 129489
+          - 127995
+          - 8205
+          - 128048
+          - 8205
+          - 129489
+          - 127998
+        - - 129489
+          - 127995
+          - 8205
+          - 128048
+          - 8205
+          - 129489
+          - 127999
+        - - 129489
+          - 127996
+          - 8205
+          - 128048
+          - 8205
+          - 129489
+          - 127995
         - - 128111
           - 127996
+        - - 129489
+          - 127996
+          - 8205
+          - 128048
+          - 8205
+          - 129489
+          - 127997
+        - - 129489
+          - 127996
+          - 8205
+          - 128048
+          - 8205
+          - 129489
+          - 127998
+        - - 129489
+          - 127996
+          - 8205
+          - 128048
+          - 8205
+          - 129489
+          - 127999
+        - - 129489
+          - 127997
+          - 8205
+          - 128048
+          - 8205
+          - 129489
+          - 127995
+        - - 129489
+          - 127997
+          - 8205
+          - 128048
+          - 8205
+          - 129489
+          - 127996
         - - 128111
           - 127997
+        - - 129489
+          - 127997
+          - 8205
+          - 128048
+          - 8205
+          - 129489
+          - 127998
+        - - 129489
+          - 127997
+          - 8205
+          - 128048
+          - 8205
+          - 129489
+          - 127999
+        - - 129489
+          - 127998
+          - 8205
+          - 128048
+          - 8205
+          - 129489
+          - 127995
+        - - 129489
+          - 127998
+          - 8205
+          - 128048
+          - 8205
+          - 129489
+          - 127996
+        - - 129489
+          - 127998
+          - 8205
+          - 128048
+          - 8205
+          - 129489
+          - 127997
         - - 128111
           - 127998
+        - - 129489
+          - 127998
+          - 8205
+          - 128048
+          - 8205
+          - 129489
+          - 127999
+        - - 129489
+          - 127999
+          - 8205
+          - 128048
+          - 8205
+          - 129489
+          - 127995
+        - - 129489
+          - 127999
+          - 8205
+          - 128048
+          - 8205
+          - 129489
+          - 127996
+        - - 129489
+          - 127999
+          - 8205
+          - 128048
+          - 8205
+          - 129489
+          - 127997
+        - - 129489
+          - 127999
+          - 8205
+          - 128048
+          - 8205
+          - 129489
+          - 127998
         - - 128111
           - 127999
-        - - 129489
-          - 127995
-          - 8205
-          - 128048
-          - 8205
-          - 129489
-          - 127996
-        - - 129489
-          - 127995
-          - 8205
-          - 128048
-          - 8205
-          - 129489
-          - 127997
-        - - 129489
-          - 127995
-          - 8205
-          - 128048
-          - 8205
-          - 129489
-          - 127998
-        - - 129489
-          - 127995
-          - 8205
-          - 128048
-          - 8205
-          - 129489
-          - 127999
-        - - 129489
-          - 127996
-          - 8205
-          - 128048
-          - 8205
-          - 129489
-          - 127995
-        - - 129489
-          - 127996
-          - 8205
-          - 128048
-          - 8205
-          - 129489
-          - 127997
-        - - 129489
-          - 127996
-          - 8205
-          - 128048
-          - 8205
-          - 129489
-          - 127998
-        - - 129489
-          - 127996
-          - 8205
-          - 128048
-          - 8205
-          - 129489
-          - 127999
-        - - 129489
-          - 127997
-          - 8205
-          - 128048
-          - 8205
-          - 129489
-          - 127995
-        - - 129489
-          - 127997
-          - 8205
-          - 128048
-          - 8205
-          - 129489
-          - 127996
-        - - 129489
-          - 127997
-          - 8205
-          - 128048
-          - 8205
-          - 129489
-          - 127998
-        - - 129489
-          - 127997
-          - 8205
-          - 128048
-          - 8205
-          - 129489
-          - 127999
-        - - 129489
-          - 127998
-          - 8205
-          - 128048
-          - 8205
-          - 129489
-          - 127995
-        - - 129489
-          - 127998
-          - 8205
-          - 128048
-          - 8205
-          - 129489
-          - 127996
-        - - 129489
-          - 127998
-          - 8205
-          - 128048
-          - 8205
-          - 129489
-          - 127997
-        - - 129489
-          - 127998
-          - 8205
-          - 128048
-          - 8205
-          - 129489
-          - 127999
-        - - 129489
-          - 127999
-          - 8205
-          - 128048
-          - 8205
-          - 129489
-          - 127995
-        - - 129489
-          - 127999
-          - 8205
-          - 128048
-          - 8205
-          - 129489
-          - 127996
-        - - 129489
-          - 127999
-          - 8205
-          - 128048
-          - 8205
-          - 129489
-          - 127997
-        - - 129489
-          - 127999
-          - 8205
-          - 128048
-          - 8205
-          - 129489
-          - 127998
       emoticons: []
       shortcodes:
         - ":bunny-ears:"
@@ -10744,7 +10323,176 @@ expression: result.unwrap()
         - 8205
         - 9794
         - 65039
-      alternates: []
+      alternates:
+        - - 128111
+          - 8205
+          - 9794
+          - 65039
+        - - 128111
+          - 127995
+          - 8205
+          - 9794
+          - 65039
+        - - 128104
+          - 127995
+          - 8205
+          - 128048
+          - 8205
+          - 128104
+          - 127996
+        - - 128104
+          - 127995
+          - 8205
+          - 128048
+          - 8205
+          - 128104
+          - 127997
+        - - 128104
+          - 127995
+          - 8205
+          - 128048
+          - 8205
+          - 128104
+          - 127998
+        - - 128104
+          - 127995
+          - 8205
+          - 128048
+          - 8205
+          - 128104
+          - 127999
+        - - 128104
+          - 127996
+          - 8205
+          - 128048
+          - 8205
+          - 128104
+          - 127995
+        - - 128111
+          - 127996
+          - 8205
+          - 9794
+          - 65039
+        - - 128104
+          - 127996
+          - 8205
+          - 128048
+          - 8205
+          - 128104
+          - 127997
+        - - 128104
+          - 127996
+          - 8205
+          - 128048
+          - 8205
+          - 128104
+          - 127998
+        - - 128104
+          - 127996
+          - 8205
+          - 128048
+          - 8205
+          - 128104
+          - 127999
+        - - 128104
+          - 127997
+          - 8205
+          - 128048
+          - 8205
+          - 128104
+          - 127995
+        - - 128104
+          - 127997
+          - 8205
+          - 128048
+          - 8205
+          - 128104
+          - 127996
+        - - 128111
+          - 127997
+          - 8205
+          - 9794
+          - 65039
+        - - 128104
+          - 127997
+          - 8205
+          - 128048
+          - 8205
+          - 128104
+          - 127998
+        - - 128104
+          - 127997
+          - 8205
+          - 128048
+          - 8205
+          - 128104
+          - 127999
+        - - 128104
+          - 127998
+          - 8205
+          - 128048
+          - 8205
+          - 128104
+          - 127995
+        - - 128104
+          - 127998
+          - 8205
+          - 128048
+          - 8205
+          - 128104
+          - 127996
+        - - 128104
+          - 127998
+          - 8205
+          - 128048
+          - 8205
+          - 128104
+          - 127997
+        - - 128111
+          - 127998
+          - 8205
+          - 9794
+          - 65039
+        - - 128104
+          - 127998
+          - 8205
+          - 128048
+          - 8205
+          - 128104
+          - 127999
+        - - 128104
+          - 127999
+          - 8205
+          - 128048
+          - 8205
+          - 128104
+          - 127995
+        - - 128104
+          - 127999
+          - 8205
+          - 128048
+          - 8205
+          - 128104
+          - 127996
+        - - 128104
+          - 127999
+          - 8205
+          - 128048
+          - 8205
+          - 128104
+          - 127997
+        - - 128104
+          - 127999
+          - 8205
+          - 128048
+          - 8205
+          - 128104
+          - 127998
+        - - 128111
+          - 127999
+          - 8205
+          - 9794
+          - 65039
       emoticons: []
       shortcodes:
         - ":bunny-ears-men:"
@@ -10752,643 +10500,182 @@ expression: result.unwrap()
       directional: false
     - base:
         - 128111
-        - 127995
-        - 8205
-        - 9794
-        - 65039
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128111
-        - 127996
-        - 8205
-        - 9794
-        - 65039
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128111
-        - 127997
-        - 8205
-        - 9794
-        - 65039
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128111
-        - 127998
-        - 8205
-        - 9794
-        - 65039
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128111
-        - 127999
-        - 8205
-        - 9794
-        - 65039
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127995
-        - 8205
-        - 128048
-        - 8205
-        - 128104
-        - 127996
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127995
-        - 8205
-        - 128048
-        - 8205
-        - 128104
-        - 127997
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127995
-        - 8205
-        - 128048
-        - 8205
-        - 128104
-        - 127998
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127995
-        - 8205
-        - 128048
-        - 8205
-        - 128104
-        - 127999
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127996
-        - 8205
-        - 128048
-        - 8205
-        - 128104
-        - 127995
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127996
-        - 8205
-        - 128048
-        - 8205
-        - 128104
-        - 127997
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127996
-        - 8205
-        - 128048
-        - 8205
-        - 128104
-        - 127998
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127996
-        - 8205
-        - 128048
-        - 8205
-        - 128104
-        - 127999
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127997
-        - 8205
-        - 128048
-        - 8205
-        - 128104
-        - 127995
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127997
-        - 8205
-        - 128048
-        - 8205
-        - 128104
-        - 127996
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127997
-        - 8205
-        - 128048
-        - 8205
-        - 128104
-        - 127998
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127997
-        - 8205
-        - 128048
-        - 8205
-        - 128104
-        - 127999
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127998
-        - 8205
-        - 128048
-        - 8205
-        - 128104
-        - 127995
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127998
-        - 8205
-        - 128048
-        - 8205
-        - 128104
-        - 127996
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127998
-        - 8205
-        - 128048
-        - 8205
-        - 128104
-        - 127997
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127998
-        - 8205
-        - 128048
-        - 8205
-        - 128104
-        - 127999
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127999
-        - 8205
-        - 128048
-        - 8205
-        - 128104
-        - 127995
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127999
-        - 8205
-        - 128048
-        - 8205
-        - 128104
-        - 127996
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127999
-        - 8205
-        - 128048
-        - 8205
-        - 128104
-        - 127997
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128104
-        - 127999
-        - 8205
-        - 128048
-        - 8205
-        - 128104
-        - 127998
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128111
         - 8205
         - 9792
         - 65039
-      alternates: []
+      alternates:
+        - - 128111
+          - 8205
+          - 9792
+          - 65039
+        - - 128111
+          - 127995
+          - 8205
+          - 9792
+          - 65039
+        - - 128105
+          - 127995
+          - 8205
+          - 128048
+          - 8205
+          - 128105
+          - 127996
+        - - 128105
+          - 127995
+          - 8205
+          - 128048
+          - 8205
+          - 128105
+          - 127997
+        - - 128105
+          - 127995
+          - 8205
+          - 128048
+          - 8205
+          - 128105
+          - 127998
+        - - 128105
+          - 127995
+          - 8205
+          - 128048
+          - 8205
+          - 128105
+          - 127999
+        - - 128105
+          - 127996
+          - 8205
+          - 128048
+          - 8205
+          - 128105
+          - 127995
+        - - 128111
+          - 127996
+          - 8205
+          - 9792
+          - 65039
+        - - 128105
+          - 127996
+          - 8205
+          - 128048
+          - 8205
+          - 128105
+          - 127997
+        - - 128105
+          - 127996
+          - 8205
+          - 128048
+          - 8205
+          - 128105
+          - 127998
+        - - 128105
+          - 127996
+          - 8205
+          - 128048
+          - 8205
+          - 128105
+          - 127999
+        - - 128105
+          - 127997
+          - 8205
+          - 128048
+          - 8205
+          - 128105
+          - 127995
+        - - 128105
+          - 127997
+          - 8205
+          - 128048
+          - 8205
+          - 128105
+          - 127996
+        - - 128111
+          - 127997
+          - 8205
+          - 9792
+          - 65039
+        - - 128105
+          - 127997
+          - 8205
+          - 128048
+          - 8205
+          - 128105
+          - 127998
+        - - 128105
+          - 127997
+          - 8205
+          - 128048
+          - 8205
+          - 128105
+          - 127999
+        - - 128105
+          - 127998
+          - 8205
+          - 128048
+          - 8205
+          - 128105
+          - 127995
+        - - 128105
+          - 127998
+          - 8205
+          - 128048
+          - 8205
+          - 128105
+          - 127996
+        - - 128105
+          - 127998
+          - 8205
+          - 128048
+          - 8205
+          - 128105
+          - 127997
+        - - 128111
+          - 127998
+          - 8205
+          - 9792
+          - 65039
+        - - 128105
+          - 127998
+          - 8205
+          - 128048
+          - 8205
+          - 128105
+          - 127999
+        - - 128105
+          - 127999
+          - 8205
+          - 128048
+          - 8205
+          - 128105
+          - 127995
+        - - 128105
+          - 127999
+          - 8205
+          - 128048
+          - 8205
+          - 128105
+          - 127996
+        - - 128105
+          - 127999
+          - 8205
+          - 128048
+          - 8205
+          - 128105
+          - 127997
+        - - 128105
+          - 127999
+          - 8205
+          - 128048
+          - 8205
+          - 128105
+          - 127998
+        - - 128111
+          - 127999
+          - 8205
+          - 9792
+          - 65039
       emoticons: []
       shortcodes:
         - ":bunny-ears-women:"
-      animated: false
-      directional: false
-    - base:
-        - 128111
-        - 127995
-        - 8205
-        - 9792
-        - 65039
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128111
-        - 127996
-        - 8205
-        - 9792
-        - 65039
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128111
-        - 127997
-        - 8205
-        - 9792
-        - 65039
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128111
-        - 127998
-        - 8205
-        - 9792
-        - 65039
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128111
-        - 127999
-        - 8205
-        - 9792
-        - 65039
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127995
-        - 8205
-        - 128048
-        - 8205
-        - 128105
-        - 127996
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127995
-        - 8205
-        - 128048
-        - 8205
-        - 128105
-        - 127997
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127995
-        - 8205
-        - 128048
-        - 8205
-        - 128105
-        - 127998
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127995
-        - 8205
-        - 128048
-        - 8205
-        - 128105
-        - 127999
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127996
-        - 8205
-        - 128048
-        - 8205
-        - 128105
-        - 127995
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127996
-        - 8205
-        - 128048
-        - 8205
-        - 128105
-        - 127997
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127996
-        - 8205
-        - 128048
-        - 8205
-        - 128105
-        - 127998
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127996
-        - 8205
-        - 128048
-        - 8205
-        - 128105
-        - 127999
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127997
-        - 8205
-        - 128048
-        - 8205
-        - 128105
-        - 127995
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127997
-        - 8205
-        - 128048
-        - 8205
-        - 128105
-        - 127996
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127997
-        - 8205
-        - 128048
-        - 8205
-        - 128105
-        - 127998
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127997
-        - 8205
-        - 128048
-        - 8205
-        - 128105
-        - 127999
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127998
-        - 8205
-        - 128048
-        - 8205
-        - 128105
-        - 127995
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127998
-        - 8205
-        - 128048
-        - 8205
-        - 128105
-        - 127996
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127998
-        - 8205
-        - 128048
-        - 8205
-        - 128105
-        - 127997
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127998
-        - 8205
-        - 128048
-        - 8205
-        - 128105
-        - 127999
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127999
-        - 8205
-        - 128048
-        - 8205
-        - 128105
-        - 127995
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127999
-        - 8205
-        - 128048
-        - 8205
-        - 128105
-        - 127996
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127999
-        - 8205
-        - 128048
-        - 8205
-        - 128105
-        - 127997
-      alternates: []
-      emoticons: []
-      shortcodes: []
-      animated: false
-      directional: false
-    - base:
-        - 128105
-        - 127999
-        - 8205
-        - 128048
-        - 8205
-        - 128105
-        - 127998
-      alternates: []
-      emoticons: []
-      shortcodes: []
       animated: false
       directional: false
     - base:
@@ -14116,7 +13403,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":tulip:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129719
@@ -14124,7 +13411,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":lotus:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127800
@@ -14132,7 +13419,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":cherry-blossom:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128174
@@ -14157,7 +13444,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":hyacinth:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127803
@@ -14173,7 +13460,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":blossom:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127810
@@ -14189,7 +13476,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":maple-leaf:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127812
@@ -14197,7 +13484,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":mushroom:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127806
@@ -14213,7 +13500,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":herb:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127793
@@ -14264,7 +13551,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":cactus:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127796
@@ -14296,7 +13583,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":evergreen-tree:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129717
@@ -14328,7 +13615,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":rock:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128728
@@ -14337,7 +13624,7 @@ expression: result.unwrap()
       shortcodes:
         - ":debris:"
         - ":landslide:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 9968
@@ -14417,7 +13704,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":national-park:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127749
@@ -14487,7 +13774,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":cyclone:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127786
@@ -14539,7 +13826,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":cloud:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127784
@@ -14601,7 +13888,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":partly-sunny:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127780
@@ -14710,7 +13997,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":ringed-planet:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127757
@@ -14759,7 +14046,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":milky-way:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 9732
@@ -14872,7 +14159,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":lion-face:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128047
@@ -14906,7 +14193,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":wolf:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128059
@@ -14915,7 +14202,7 @@ expression: result.unwrap()
         - ʕ·ᴥ·ʔ
       shortcodes:
         - ":bear-face:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128059
@@ -14942,7 +14229,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":panda:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128057
@@ -14974,7 +14261,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":fox-face:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128046
@@ -15286,7 +14573,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":sloth:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129432
@@ -15424,7 +14711,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":raccoon:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129448
@@ -15448,7 +14735,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":hedgehog:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129446
@@ -15614,7 +14901,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":flamingo:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129434
@@ -15649,7 +14936,7 @@ expression: result.unwrap()
         - "<(\")"
       shortcodes:
         - ":penguin:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129453
@@ -15673,7 +14960,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":orca:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128044
@@ -15853,7 +15140,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":cricket:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129714
@@ -15952,7 +15239,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":strawberry:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127826
@@ -15960,7 +15247,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":cherries:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127822
@@ -15968,7 +15255,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":red-apple:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127813
@@ -15993,7 +15280,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":watermelon:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127825
@@ -16011,7 +15298,7 @@ expression: result.unwrap()
         - ":tangerine:"
         - ":orange:"
         - ":mandarin:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129365
@@ -16019,7 +15306,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":carrot:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129389
@@ -16027,7 +15314,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":mango:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127821
@@ -16035,7 +15322,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":pineapple:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127820
@@ -16051,7 +15338,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":ear-of-corn:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127819
@@ -16059,7 +15346,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":lemon:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127819
@@ -16077,7 +15364,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":melon:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127824
@@ -16085,7 +15372,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":pear:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129755
@@ -16093,7 +15380,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":pea-pod:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129388
@@ -16101,7 +15388,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":leafy-green:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129745
@@ -16109,7 +15396,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":bell-pepper:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127823
@@ -16125,7 +15412,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":kiwi-fruit:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129361
@@ -16133,7 +15420,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":avocado:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129746
@@ -16149,7 +15436,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":broccoli:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129362
@@ -16157,7 +15444,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":cucumber:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129744
@@ -16165,7 +15452,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":blueberries:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127815
@@ -16173,7 +15460,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":grapes:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127814
@@ -16215,7 +15502,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":potato:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127812
@@ -16233,7 +15520,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":onion:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129754
@@ -16241,7 +15528,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":ginger:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129476
@@ -16249,7 +15536,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":garlic:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129752
@@ -16257,7 +15544,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":beans:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127792
@@ -16281,7 +15568,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":bread:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129747
@@ -16329,7 +15616,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":pancakes:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127859
@@ -16353,7 +15640,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":cheese-wedge:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129363
@@ -16361,7 +15648,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":bacon:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129385
@@ -16377,7 +15664,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":poultry-leg:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127830
@@ -16393,7 +15680,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":hamburger:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127789
@@ -16401,7 +15688,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":hot-dog:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129386
@@ -16417,7 +15704,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":pretzel:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127839
@@ -16433,7 +15720,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":pizza:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129748
@@ -16449,7 +15736,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":taco:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127791
@@ -16521,7 +15808,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":green-salad:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127858
@@ -16617,7 +15904,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":oden:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127833
@@ -16649,7 +15936,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":dango:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129376
@@ -16681,7 +15968,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":ice-cream:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127846
@@ -16689,7 +15976,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":soft-ice-cream:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129383
@@ -16697,7 +15984,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":pie:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127856
@@ -16761,7 +16048,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":doughnut:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127850
@@ -16769,7 +16056,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":cookie:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127855
@@ -16785,7 +16072,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":salt:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129480
@@ -16834,7 +16121,7 @@ expression: result.unwrap()
       shortcodes:
         - ":bubble-tea:"
         - ":milk-tea:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129475
@@ -16842,7 +16129,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":beverage-box:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129371
@@ -16858,7 +16145,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":baby-bottle:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127861
@@ -16866,7 +16153,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":teacup-without-handle:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 9749
@@ -16882,7 +16169,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":teapot:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129481
@@ -16890,7 +16177,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":mate:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127866
@@ -16978,7 +16265,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":chopsticks:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127860
@@ -17011,7 +16298,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":fork-and-knife-with-plate:"
-      animated: false
+      animated: true
       directional: false
 - group: Travel and places
   emoji:
@@ -17021,7 +16308,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":stop-sign:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128679
@@ -17045,7 +16332,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":fuel-pump:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128738
@@ -17078,7 +16365,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":ring-buoy:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 9875
@@ -17086,7 +16373,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":anchor:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128655
@@ -17118,7 +16405,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":vertical-traffic-light:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128756
@@ -17175,7 +16462,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":motorcycle:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128665
@@ -17215,7 +16502,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":delivery-truck:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128667
@@ -17231,7 +16518,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":tractor:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127950
@@ -17328,7 +16615,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":locomotive:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128643
@@ -17532,7 +16819,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":airplane:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128747
@@ -17590,7 +16877,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":carousel-horse:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127914
@@ -17622,7 +16909,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":moai:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128507
@@ -17843,7 +17130,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":derelict-house:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127968
@@ -17851,7 +17138,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":house:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127969
@@ -17927,7 +17214,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":sunset:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127747
@@ -18100,7 +17387,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":diya-lamp:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129669
@@ -18282,7 +17569,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":basketball:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127952
@@ -18306,7 +17593,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":rugby-football:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129349
@@ -18386,7 +17673,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":skis:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 9976
@@ -18549,7 +17836,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":chess-pawn:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129664
@@ -18662,7 +17949,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":camera:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128248
@@ -18770,7 +18057,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":trombone:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127928
@@ -18778,7 +18065,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":guitar:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129685
@@ -18786,7 +18073,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":banjo:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127931
@@ -18909,7 +18196,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":television:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128249
@@ -18943,7 +18230,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":film:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127916
@@ -18959,7 +18246,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":performing-arts:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127915
@@ -18976,7 +18263,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":admission-tickets:"
-      animated: false
+      animated: true
       directional: false
 - group: Objects
   emoji:
@@ -19011,7 +18298,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":pager:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128224
@@ -19027,7 +18314,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":electric-plug:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128267
@@ -19076,7 +18363,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":optical-disk:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128192
@@ -19101,7 +18388,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":laptop-computer:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 9000
@@ -19119,7 +18406,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":printer:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128433
@@ -19136,7 +18423,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":treasure:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129689
@@ -19241,7 +18528,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":shopping-cart:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128717
@@ -19421,7 +18708,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":broom:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129524
@@ -19485,7 +18772,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":socks:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129508
@@ -19678,7 +18965,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":crown:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128141
@@ -19791,7 +19078,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":high-heeled-shoe:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129652
@@ -19808,7 +19095,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":running-shoe:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128094
@@ -19899,7 +19186,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":thermometer:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128137
@@ -19931,7 +19218,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":stethoscope:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 129659
@@ -20094,7 +19381,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":hammer-and-wrench:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 9874
@@ -20158,7 +19445,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":chains:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128206
@@ -20175,7 +19462,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":linked-paperclips:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 9986
@@ -20184,7 +19471,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":scissors:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128207
@@ -20385,7 +19672,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":books:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128214
@@ -20434,7 +19721,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":bar-chart:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128200
@@ -20442,7 +19729,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":chart-increasing:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128201
@@ -20450,7 +19737,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":chart-decreasing:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128199
@@ -20491,7 +19778,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":wastebasket:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128240
@@ -20614,7 +19901,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":package:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128239
@@ -20639,7 +19926,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":ballot-box:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128197
@@ -20697,7 +19984,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":hourglass-done:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 9203
@@ -20705,7 +19992,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":hourglass-not-done:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 9202
@@ -20983,7 +20270,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":megaphone:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128269
@@ -20999,7 +20286,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":magnifying-glass-tilted-right:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128302
@@ -21426,7 +20713,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":heart:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 9830
@@ -21453,7 +20740,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":spade:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 9800
@@ -21602,7 +20889,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":anger-bubble:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128172
@@ -21610,7 +20897,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":speech-bubble:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128488
@@ -21860,7 +21147,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":hot-springs:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128315
@@ -22641,7 +21928,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":ok-button:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 127378
@@ -23346,7 +22633,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":copyright:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 174
@@ -23355,7 +22642,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":registered:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 8482
@@ -23364,7 +22651,7 @@ expression: result.unwrap()
       emoticons: []
       shortcodes:
         - ":trade-mark:"
-      animated: false
+      animated: true
       directional: false
     - base:
         - 128280
